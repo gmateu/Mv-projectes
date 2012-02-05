@@ -1,452 +1,51 @@
-/*  
-
-Theme Name: Miquel disseny
-
-Theme URI: http://www.miqueldisseny.com
-
-Description: Tema Miquel Disseny.
-
-Version: 1.0
-
-Author: jo mateix
-
-Author URI: http://forabits.com/
-
-guillem 
-
-
-
+/*Theme Name: Miquel Molins
+Theme URI: www.mvprojectes.com
+Author: Guillem Mateu
+Description: themeTaller
 */
+/* RESET */
 
-body{
-	margin: 0;
-	font-family: Arial, Helvetica, Georgia, Sans-serif;
-	font-size: 12px;
-	text-align: left;
-	vertical-align: top;
-	background: #AAB250;
-	color: #000000;
-	/*opacity:0.9;*/
-	/*background:url('backgrounds/aixa1.jpg') no-repeat left top fixed;*/
-	background-size:100%;
-	}
-	
-
-	 
-	
-body, h1, h2, h3, h4, h5, h6, blockquote, p{
-	margin: 0;
-	padding: 0;
-	
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
 }
-
-ul { 
-	list-style-type: none;
-	padding: 0px;
-	margin: 0px;
-	}
-.post h2{
-	padding: 0 0 0 0;
-	background: #AAB250;
-	color: #fff;	
-	text-align:center;
-	height: 30px;
-	margin: 10px 0 0;
-	font-size:18px;
+:focus {
+    outline: 0;
 }
-
-.entry h2{
-	color:#000000;
-	background:#AAB250;
-	text-align:left;
-	
-	}
-	
-#header a:visited{
-		text-decoration: none;
-		color: #000000;
-	}
-	
-h2 a:visited{
-		text-decoration: none;
-		color: #fff;
-	}
-	
-#sidebar_top  a:visited{
-		text-decoration: none;
-		color: #fff;
-	}
-	
-	
-/*a:link, a:visited{
-	text-decoration: none;
-	color: #B3B3B3;
+body {
+    line-height: 1;
+    color: black;
+    background: white;
 }
-
-a:hover{
-	text-decoration: none;
-	color: #B3B3B3;
-	}
-	*/
-p{
-padding: 10px 0 0 0;
+ol, ul {
+    list-style: none;
 }
-
-#wrapper{
-	margin: auto;
-	width: 100%;
-	text-align: left;
-	
+table {
+    border-collapse: separate;
+    border-spacing: 0;
 }
-
-#header{
-	/*float: left;*/
-	width: 100%;
-	height: 155px;
-	background-color:#AAB250;
-	/*background-image:url('img/logo.png');*/
-	background-repeat:no-repeat;
-	}
-	
-#subheader{
-	background-color: #AAB250;
-    float: left;
-    height: 600px;
-    /*position: absolute;
-    top: 300px;*/
-    width: 100%;
-	}
-	
-#container{
- background: none repeat scroll 0 0 #F7D36F;
-    float: left;
-    margin: 10px;
-    width: 100%;
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
 }
-
-#container_page{
-float: left;
-width: 750px;
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
 }
-
-.tit_article{
-	color: #575252;
-    font-weight: bold;	
-    font-size:22px;
-	}
-
-.post{
-padding: 0 0 0 0;
+blockquote, q {
+    quotes: "" "";
 }
-
-/*.post h2{
-font-family: Georgia, Sans-serif;
-font-size: 18px;
-}*/
-
-.alignleft {
-    display: inline;
-    float: left;
-    margin-right: 1.625em;
-}
-
-.entry{
-line-height: 18px;
-}
-
-p.postmetadata{
-border-top: 1px solid #ccc;
-margin: 10px 0 0 0;
-}
-
-.navigation{
-padding: 10px 0 0 0;
-font-size: 14px;
-font-weight: bold;
-line-height: 18px;
-}
-
-li{	
-	list-style-type: none;
-}
-
-#sidebar{
-float: left;
-width: 240px;
-background: #AAB250;
-margin: 10px 0 0 10px;
-}
-
-#sidebar ul{
-list-style-type: none;
-margin: 0;
-padding: 0 10px 0 10px;
-}
-
-#sidebar ul li{
-	padding: 10px 0 10px 0;
-}
-
-#sidebar ul li h2{
-	font-family: Georgia, Sans-serif;
-	font-size: 14px;
-}
-
-#sidebar h2{
-	background: #AAB250;
-	color: #fff;	
-	text-align:center;
-	height: 30px;
-}
-
-#sidebar ul ul li{
-padding: 0;
-line-height: 24px;
-}
-
-#sidebar_left{
-	float: left;
-	width: 240px;
-	background: #AAB250;
-	 margin: 10px 10px 0 0;
-
-}
-
-#sidebar_left ul li{
-	padding: 10px 0 10px 0;
-}
-
-#sidebar_left ul li h2{
-	font-family: Georgia, Sans-serif;
-	font-size: 14px;
-}
-
-#sidebar_left h2{
-	background: #AAB250;
-	color: #fff;	
-	text-align:center;
-	height: 30px;
-}
-
-#sidebar_left ul ul li{
-padding: 0;
-line-height: 24px;
-}
-
-
-#footer{
-clear: both;
-float: left;
-width: 100%;
-padding: 0 10px 0 0;
-background:#AAB250;
-}
-
-#footer p{
-	line-height:18px;
-	color:#fff;
-	}
-	
-	
-/*  TABS */
-
-div#tabs {
-	padding: 0px;
-	margin: 0px;
-	background-color: #81872C;
-	border-bottom: 1px solid white;
-	height: 28px;
-}
-
-div#tabs ul {
-	padding: 0;
-	margin:0;
-	background-color: #A5A7AA;
-	color:#000000;
-}
-
-div#tabs ul li {
-	display:table-cell;
-	padding-left: 40px;
-	padding-right: 40px;
-	border-right: 1px solid white;
-	vertical-align: middle;
-	height: 28px;
-	color:#000000;
-}
-
-div#tabs ul li a{
-	color:#000000;
-	text-decoration:none;
-}
-
-
-div#tabs ul li a:hover{
-text-decoration: none;
-cursor:default;
-}
-
-div#tabs ul li a:visited{
-	text-decoration:none;
-}
-	
-	
-.ui-state-active{
-background-color: #81872C;
-color:#000000;
-text-decoration: none;
-cursor:default;
-}
-
-
-.ui-tabs-hide {  
-	display: none;  
-} 
-.ui-widget-content{
-	
-}
-.ui-tabs-panel{
-	color: white;
-	background-color: #81872C;
-	float:left;
-	height: 24px;
-	margin: 1px 0 0 0;
-	padding-left: 0px;
-	padding-top: 5px;
-	width: 100%;
-}
-
-.ui-tabs-panel a{
-	color:#000000;
-	text-decoration:none;
-	vertical-align: middle;
-	border-right: 1px solid #FFFFFF;
-	padding: 0 15px 0 15px;
-}
-
-div#fade1 {
-	background-image: url('imatges/fade1.png');
-	background-repeat: repeat-x;
-	height: 15px;
-	float:none;
-	display:block;
-	clear:both;
-	padding-top: 6px;
-	font-size: 10px;
-	color: #494949;
-}
-
-/*  FI TABS */
-
-
-div#right_page h2 {
-    color: #575252;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0 0 20px;
-    padding-left: 0;
-}
-
-div#static_container_page {
-    display: table;
-    font: inherit;
-    margin-top: 5px;
-    padding-bottom: 10px;
-    padding-right: 5px;
-    width: 100%;
-}
-
-
-div#static_container_page h1 {
-    color: #81872C;
-    margin-left: 10px;
-}
-
-div#static_container_page ul{  background:red;}
-
-div#static_container_page li{  background:#CED1D8 ;
-  height:25px;
-  font-size:18px;
-  border-bottom: 1px solid #64656A;
-  }
-
-div#static_container_page a{
-    text-decoration: none;
-    color:#666060;}
-
-
-div#static_container_page a:visited{
-    text-decoration: none;
-    color:#666060;}
-
-div#static_container_news a{
-	text-decoration: none;
-	}
-
-
-div#static_container_news a:visited{
-	text-decoration: none;
-	color: #575252;
-	}
-	
-	
-div#container a{
-	text-decoration: none;
-	}
-
-
-div#container a:visited{
-	text-decoration: none;
-	color: #575252;
-	}
-
-
-#left_page{
-display: table-cell;padding-left: 5px;padding-right: 15px;width: 300px;
-height:800px;
-}
-
-div.bar {
-    background-image: url("imatges/bar_rightmenu.png");
-    margin-top: 15px;
-}
-
-div.titbar {
-    background-repeat: no-repeat;
-    border-bottom: 2px solid #64656A;
-    color: #000000;
-    font-weight: bold;
-    height: 17px;
-    padding-left: 10px;
-    padding-top: 2px;
-}
-
-#right_page {
-    background-color: #81872C;
-    display: table-cell;
-    padding: 0 12px;
-    width:70%;
-}
-
-.photo_article {
-    display: table-cell;
-    border-bottom: 3px solid #81872C;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-left:10px;
-    text-align: center;
-    width: 17%;
-    background-color:#F7D36F;
-}
-
-.lead_article {
-    display: table-cell;
-    border-bottom: 3px solid #AAB250;
-    padding-top: 5px;
-    vertical-align: top;
-    background:#81872C;
-}
-
-
-
