@@ -26,8 +26,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 body {
     line-height: 1;
-    color: black;
-    background: white;
+    color: white;
+    background: black;
 }
 ol, ul {
     list-style: none;
@@ -47,3 +47,30 @@ q:before, q:after {
 blockquote, q {
     quotes: "" "";
 }
+
+#menu{
+	width:300px;
+	height:900px;
+	background:#939391;
+	text-decoration: none;
+	float:left;
+	margin
+	}
+	
+#menu a:link { 
+	color: #333333;
+	text-decoration: none;
+	}
+#menu a:visited {
+	color: 333333;
+	text-decoration: none;
+	}
+#menu a:hover {
+	color: #CCCCCC;
+	background-color: #333333;
+	text-decoration: none;
+	}
+#menu a:active {
+	color: #333333;
+	text-decoration: none;
+	}
