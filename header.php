@@ -22,13 +22,14 @@
 <div id="content-wrapper">
 	<div id="header">
 		<div id="logo">
-			<p>img</p>
+			
 		</div><!--end of logo-->		
 	</div><!--end of header-->
 	<ul id="menu">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Página estática</a></li>
-            <li><a href="#">Categoría</a></li>
-            <li><a href="#">Contáctenos</a></li>
+            <li><a href="#">Nosaltres</a></li>
+            <li><a href="#">Estils</a></li>
+            <li><a href="#">Projectes</a></li>
+            <li><a href="#">Serveis</a></li>
+            <li><a href="#">Contacte</a></li>
     </ul>
 </div>
