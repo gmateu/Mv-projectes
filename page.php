@@ -1,7 +1,5 @@
 <?php get_header() ?>
-<div id="nivoslider">
-<img src="http://lorempixum.com/g/920/310" />
-</div><!-- end of nivoslider -->
+
 <div id="featured">
     <div class="item">
         <h3>Quiere saber mas?</h3>

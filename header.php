@@ -21,9 +21,9 @@
 <body>
 <div id="content-wrapper">
 	<div id="header">
-		<div id="logo">
-			
-		</div><!--end of logo-->		
+<div id="nivoslider">
+<img src="http://lorempixum.com/g/920/310" />
+</div><!-- end of nivoslider -->		
 	</div><!--end of header-->
 	<ul id="menu">
             <li><a href="#">Nosaltres</a></li>
