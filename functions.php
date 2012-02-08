@@ -11,13 +11,16 @@ if(function_exists('register_sidebar')){
 
 if(function_exists('register_sidebar')){
     register_sidebar(array(
-        'name' => 'Menu Dreta',
-        'before_widget' => '<div class="menu_%1$s',
+        'name' => 'El nostre estil',
+        'before_widget' => '<div id="menuDreta">',
         'after_widget' => '</div>',
         'before_title' => '<h1>',
         'after_title' => '</h1>',
     ));
 }
+
+
+
 
 
 ?>

@@ -15,6 +15,14 @@
 get_header(); ?>
 
 		<div id="container">
+			<?php if ( is_active_sidebar(2) ) {?>
+			<div id="left_page">
+				<?php dynamic_sidebar(2) ;?>
+			</div>
+			<?}else{;?>
+				<p>res</p>
+			<?}?>
+
 			<div id="content" role="main">
 
 			<?php
