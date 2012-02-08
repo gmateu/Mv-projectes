@@ -83,6 +83,49 @@ blockquote, q {
 	background:#333333;
 	}
 	
+#titol_dreta{
+	 border-bottom: 1px solid #7A7979;
+    left: -40px;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    width: 187px;
+	
+	}
+	
+#menu-esquerra{
+	padding-top:20px;
+	}
+	
+#menu-esquerra li{
+	width:100%;
+	}	
+	
+#menu-esquerra a:link { 
+	color:white;
+	text-decoration: none;
+	}
+#menu-esquerra a:visited {
+	color:white;
+	text-decoration: none;
+	}
+#menu-esquerra a:hover {
+	color:white;
+	background-color: #333333;
+	text-decoration: none;
+	}
+#menu-esquerra a:active {
+	color:white;
+	text-decoration: none;
+	}
+
+#menu-esquerra li:hover{
+	background:#333333;
+	}
+.menu-item{
+	padding-top:20px;
+	}
+	
 .nivoSlider {
     position:relative;
     width:618px; /* Change this to your images width */
@@ -107,6 +150,34 @@ blockquote, q {
     width: 800px;
 }
 
-#menuDreta{
-	background: red;
+.menuDreta{
+	background: #272622;
+	width:150px;
+	height:900px;
+	float:left;
+	}
+.menuDreta li{
+	width:100%;
+	}	
+	
+.menuDreta a:link { 
+	color:white;
+	text-decoration: none;
+	}
+.menuDreta a:visited {
+	color:white;
+	text-decoration: none;
+	}
+.menuDreta a:hover {
+	color:white;
+	background-color: #333333;
+	text-decoration: none;
+	}
+.menuDreta a:active {
+	color:white;
+	text-decoration: none;
+	}
+
+.menuDreta li:hover{
+	background:#333333;
 	}
