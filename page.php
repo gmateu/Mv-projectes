@@ -1,30 +1,32 @@
-<?php get_header() ?>
+<?php
+/**
+ * The template for displaying all pages.
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site will use a
+ * different template.
+ *
+ * @package WordPress
+ * @subpackage Twenty_Ten
+ * @since Twenty Ten 1.0
+ */
 
-<div id="featured">
-    <div class="item">
-        <h3>Quiere saber mas?</h3>
-        <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
-    </div><!-- end of item" -->
-        <div class="item">
-        <h3>Quiere saber mas?</h3>
-        <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
-    </div><!-- end of item" -->
-        <div class="item">
-        <h3>Quiere saber mas?</h3>
-        <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
-    </div><!-- end of item" -->
-</div><!-- end of featured -->
-<div class="news">
-    <img src="http://lorempixum.com/g/290/130" />
-    <h2>Un post que se destaca...</h2>
-    <p>Sed pharetra risus eu nisi molestie aliquet. Donec ipsum eros, sodales ut convallis ac, posuere vitae orci. <a href="#">Leer más</a></p>
-</div>
-<div class="news">
-    <img src="http://lorempixum.com/g/290/130" />
-    <h2>Un post que se destaca...</h2>
-    <p>Sed pharetra risus eu nisi molestie aliquet. Donec ipsum eros, sodales ut convallis ac, posuere vitae orci. <a href="#">Leer más</a></p>
-</div>
-<?php 
-get_sidebar(); 
-get_footer(); 
-?>
+get_header(); ?>
+
+		<div id="container">
+			<div id="content" role="main">
+
+			<?php
+			/* Run the loop to output the page.
+			 * If you want to overload this in a child theme then include a file
+			 * called loop-page.php and that will be used instead.
+			 */
+			get_template_part( 'loop', 'page' );
+			?>
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

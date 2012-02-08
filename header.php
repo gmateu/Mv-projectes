@@ -21,6 +21,9 @@
 <body>
 <div id="content-wrapper">
 	<div id="header">
+		<div id="logo">
+			<a href="<?php bloginfo('url'); ?>"><img src='<?php bloginfo("template_directory"); ?>/img/logo.png' /></a>
+		</div><!--end of logo-->
 		<div id="nivoslider">
 			<p>nivo</p>
 		</div><!-- end of nivoslider -->		
