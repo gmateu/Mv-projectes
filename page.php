@@ -24,4 +24,7 @@
     <h2>Un post que se destaca...</h2>
     <p>Sed pharetra risus eu nisi molestie aliquet. Donec ipsum eros, sodales ut convallis ac, posuere vitae orci. <a href="#">Leer más</a></p>
 </div>
-<?php get_sidebar(); get_footer(); ?>
+<?php 
+get_sidebar(); 
+get_footer(); 
+?>

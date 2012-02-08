@@ -21,10 +21,12 @@
 <body>
 <div id="content-wrapper">
 	<div id="header">
-<div id="nivoslider">
-<img src="http://lorempixum.com/g/920/310" />
-</div><!-- end of nivoslider -->		
+		<div id="nivoslider">
+			<p>nivo</p>
+		</div><!-- end of nivoslider -->		
 	</div><!--end of header-->
+	<?php if ( !function_exists('dynamic_sidebar')
+        || !dynamic_sidebar(1) ) : ?>
 	<ul id="menu">
             <li><a href="#">Nosaltres</a></li>
             <li><a href="#">Estils</a></li>
@@ -32,4 +34,5 @@
             <li><a href="#">Serveis</a></li>
             <li><a href="#">Contacte</a></li>
     </ul>
+    <?php endif; ?>
 </div>

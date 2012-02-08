@@ -1,9 +1,7 @@
-<div id="sidebar">
-<h3>Ultimas noticias</h3>
-<ul>
-    <li>Una noticia en la sidebar<br />Por admin</li>
-    <li>Una noticia en la sidebar<br />Por admin</li>
-    <li>Una noticia en la sidebar<br />Por admin</li>
-    <li>Una noticia en la sidebar<br />Por admin</li>
-</ul>
-</div><!-- end of sidebar -->
+<?php
+if(function_exists('dynamic_sidebar')){
+    dynamic_sidebar(2);
+    // Donde pone 'Sidebar Personalizada' iría el nombre
+    // que hayas puesto a tu sidebar al definirla
+}
+?>
