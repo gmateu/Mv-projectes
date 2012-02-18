@@ -144,17 +144,18 @@ blockquote, q {
 }
 
 #container {
-    background: none repeat scroll 0 0 #333333;
-    float: left;
-    height: 900px;
-    width: 800px;
+ 	background: none repeat scroll 0 0 #272622;
+    height: 940px;
+    margin: auto;
+    width: 1000px;
 }
 
 .menuDreta{
-	background: #272622;
-	width:150px;
-	height:900px;
-	float:left;
+	background: none repeat scroll 0 0 #272622;
+    float: left;
+    height: 840px;
+    margin-top: 100px;
+    width: 150px;
 	}
 .menuDreta li{
 	width:100%;
