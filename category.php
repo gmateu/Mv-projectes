@@ -1,5 +1,12 @@
 <?get_header(); ?>
 <div id="static_container_news">
+		<?php if ( is_active_sidebar(2) ) {?>
+			<div id="left_page">
+				<?php dynamic_sidebar(2) ;?>
+			</div>
+			<?}else{;?>
+				<p>res</p>
+		  <?}?>
 	<div id="row_news">
 		<div id="left_category">
 				
@@ -13,10 +20,7 @@
 				<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 				<div class="container_article">
 					<div class="row_article">
-						<?
-						$image = get_thumbail($post->ID, "thumbnail");
-						if($image){
-						?>
+						<?php echo get_the_image_link(array('Thumbnail','My Thumbnail'),'thumbnail');?>
 						<div class="photo_article">
 							<a href="<?php the_permalink()?>" title="<?php the_title() ?>">
 							  <?php echo get_thumbail($post->ID, "thumbnail"); ?>

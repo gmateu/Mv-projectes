@@ -15,7 +15,6 @@
 			<div class="post"  id="post-<?php the_ID(); ?>">
 				<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 				<div class="entry">
-					<?php echo get_the_image_link(array('Thumbnail','My Thumbnail'),'thumbnail');?>
 					<?php the_content(); ?>
 					<p class="postmetadata">
 						<?php _e('Filed under&#58;'); ?> <?php the_category(', ') ?> <?php _e('by'); ?> <?php  the_author(); ?><br />
