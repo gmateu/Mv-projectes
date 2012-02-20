@@ -20,11 +20,9 @@
 				<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 				<div class="container_article">
 					<div class="row_article">
-						<?php echo get_the_image_link(array('Thumbnail','My Thumbnail'),'thumbnail');?>
+						
 						<div class="photo_article">
-							<a href="<?php the_permalink()?>" title="<?php the_title() ?>">
-							  <?php echo get_thumbail($post->ID, "thumbnail"); ?>
-							</a>
+							<?php echo get_the_image_link(array('Thumbnail','My Thumbnail'),'thumbnail');?>
 						</div>
 						<div class="lead_article">
 							</span> 
