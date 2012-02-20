@@ -150,6 +150,11 @@ blockquote, q {
     width: 1000px;
 }
 
+#container a{
+  
+  color:red;
+}
+
 .menuDreta{
 	background: none repeat scroll 0 0 #272622;
     float: left;
