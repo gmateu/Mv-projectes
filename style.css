@@ -150,7 +150,7 @@ blockquote, q {
     width: 1000px;
 }
 
-#container a{
+#container .post a{
   
   color:red;
 }
