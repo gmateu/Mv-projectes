@@ -1,5 +1,5 @@
 <?get_header(); ?>
-<div id="static_container_news">
+<div id="container">
 		<?php if ( is_active_sidebar(2) ) {?>
 			<div id="left_page">
 				<?php dynamic_sidebar(2) ;?>
