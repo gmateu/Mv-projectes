@@ -26,7 +26,6 @@
 							  <?php echo get_thumbail($post->ID, "thumbnail"); ?>
 							</a>
 						</div>
-						<?}?>
 						<div class="lead_article">
 							</span> 
 							<!--<span class="data_single"><?php the_time('d-m-Y'); ?></span>-->
