@@ -1,6 +1,6 @@
 
 	<?php get_header(); ?>
-	<?php include ('subheader.php'); ?>
+	<?php //include ('subheader.php'); ?>
 	<?php //include ('sidebar_left.php'); ?>
 		<div id="container">
 		<?php if(have_posts()) : ?>
